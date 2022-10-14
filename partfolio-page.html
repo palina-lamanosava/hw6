@@ -203,13 +203,16 @@
                  </a></li>
              </ul>
          </div>
-         <form action="#" class="subscribe">
-             <b>Подпишитесь на рассылку</b>
-             <input type="email">
-             <button type="submit">Подписаться <svg class="send-icon" width="24" height="24">
-                 <use href="./images/symbol-defs.svg#icon-icon-send"></use>
-             </svg></button>
-         </form>
+         <form class="subscribe">
+            <b>Подпишитесь на рассылку</b>
+            <div class="box-input">
+                <input type="email" name="email" id="user-email" placeholder=" ">
+                <label for="user-email">E-mail</label>
+            </div>
+            <button class="main-button" type="submit">Подписаться <svg class="send-icon" width="24" height="24">
+                <use href="./images/symbol-defs.svg#icon-icon-send"></use>
+            </svg></button>
+        </form>
         </div>
      </footer>
 </body>
