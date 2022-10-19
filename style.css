@@ -728,7 +728,7 @@ textarea::placeholder {
     color: var(--secondary-text-color);
 }
 
-.checkbox > span {
+.checkbox > a{
     color: var(--accent-color);
     text-decoration: underline;
 }
@@ -766,6 +766,7 @@ textarea::placeholder {
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 50%;
     background-color: var(--primary-backgroud-color);
+    cursor: pointer;
 }
 
 .close-button:hover .close-icon,
